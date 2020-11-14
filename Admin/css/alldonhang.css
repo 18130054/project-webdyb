@@ -1,0 +1,131 @@
+.combo_box_top {
+    height: 35px;
+    background: #8b5c7e;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+}
+
+.table-agile-info {
+    height: 100% !important;
+    
+}
+.table>thead>tr.active>th {
+    background-color:#8b5c7e !important;
+    color: white !important;
+}
+.table_content {
+    overflow-y: auto;
+    
+}
+
+.table_content thead th {
+    position: sticky; top: 0;
+}
+
+.table-agile-info .content {
+    background-color: rgba(171, 119, 157, 0.27);
+    
+}
+.content {
+    overflow: auto;
+}
+.table {
+    margin-bottom: 0px !important;
+}
+.table tr th{
+    color: #333  !important;
+}
+.table tr td{
+    color: #333  !important;
+}
+
+.boxx-tb .th0{
+    width: 6%;
+    padding-left: 20px;
+}
+.boxx-tb .th1,.th2{
+    width: 10%;
+}
+
+.boxx-tb {
+    width: 100%;
+    
+    
+}
+.boxx-tb .th3{
+    width: 18%;
+}
+.boxx-tb .th5,.th6{
+    width: 15%;
+}
+.boxx-tb .th7{
+    width: 10%;
+}
+.tr-content{
+    height: 50px;
+    border-top: 1px solid rgb(214, 214, 214);
+}
+
+.tr-content .status1 {
+    border-radius: 5px;
+    color: white;
+    background: rgb(56, 116, 184);
+    padding:  5px 10px 5px 10px;
+}
+
+.tr-content .status2 {
+    border-radius: 5px;
+    color: white;
+    background: rgb(37, 41, 248);
+    padding:  5px 10px 5px 10px;    
+}
+.tr-content .td1{
+    text-align: center;
+}
+.tr-content .status3 {
+    border-radius: 5px;
+    padding:  5px 10px 5px 10px;
+    color: white;
+    background: rgb(0, 187, 100);
+}
+
+.tr-content .td-ctent{
+    padding-left: 10px;
+}
+.tr-content .td-ctent a{
+    color: black;
+}
+.tr-content .td-ctent i{
+    padding: 5px;
+}
+
+
+.tr-content .td-ctent i:hover{
+    transform: rotate(15deg);
+}
+.content button {
+    width: 180px;
+    height: 40px;
+    outline: none;
+    background: #8b5c7e;
+    border: none;
+    font-size: 18px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    float: right;
+    color: white;
+    margin: 10px 20px 10px 0px;
+}
+.content button:hover {
+    background: #fa9fa4;
+    color: white;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}

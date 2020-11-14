@@ -1,0 +1,28 @@
+.choose_location {
+    margin-bottom: 10px;
+}
+.compose-editor {
+    margin-bottom:10px !important;
+}
+.compose-editor img {
+    width: 100px;
+    height: 100px;
+}
+.combo_box {
+    height: 30px;
+    outline:none;
+}
+.compose-mail .lb_til {
+    min-width: 110px;
+    width: 12% !important;
+}
+.compose-mail .lb_but {
+    width: 12% !important;
+    min-width: 140px;
+}
+.compose-mail .title {
+    width: 88% !important;
+}
+.compose-mail .button {
+    width: 85% !important;
+}
