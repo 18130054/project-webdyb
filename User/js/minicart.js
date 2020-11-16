@@ -1914,10 +1914,10 @@ var defaults = module.exports = {
     styles: '',
 
     strings: {
-        button: 'Check Out',
-        subtotal: 'Subtotal:',
-        discount: 'Discount:',
-        empty: 'Your shopping cart is empty'
+        button: 'Thanh Toán',
+        subtotal: 'Tổng Tiền:',
+        discount: 'Giảm Giá:',
+        empty: 'Chưa Có Sản Phẩm'
     }
 
 };
@@ -2411,18 +2411,18 @@ var currencies = {
     USD: { before: '$', code: true },
     UYU: { before: '$U' },
     VEF: { before: 'Bs' },
-    VND: { before: '\u20ab' },
+    VND: { before: '', code: true },
     XCD: { before: '$', code: true },
     ZAR: { before: 'R' }
 };
 
 
 module.exports = function currency(amount, config) {
-    var code = config && config.currency || 'USD',
+    var code = config && config.currency || 'VND',
         value = currencies[code],
         before = value.before || '',
         after = value.after || '',
-        length = value.length || 2,
+        length = value.length ,
         showCode = value.code && config && config.showCode,
         result = amount;
 

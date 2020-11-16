@@ -66,6 +66,7 @@
     color: white;
     background: rgb(56, 116, 184);
     padding:  5px 10px 5px 10px;
+    
 }
 
 .tr-content .status2 {
@@ -88,19 +89,19 @@
 .tr-content .td-ctent{
     padding-left: 25px;
 }
-.tr-content .td-ctent a{
-    color: black;
-}
 .tr-content .td-ctent i{
+    color: black;
     padding: 5px;
+    cursor: pointer;
 }
 
 
 .tr-content .td-ctent i:hover{
     transform: rotate(15deg);
 }
-.tr-content .td-ctent_2 a {
+.tr-content .td-ctent_2 i {
     color: black;
+    cursor: pointer;
 }
 .tr-content .td-ctent_2 i:hover {
     transform: rotate(15deg) ;
@@ -113,4 +114,27 @@
 
 .market-update-left .number {
     font-size: 1.3em !important;
+}
+
+.modal-body .content {
+    width: 80%;
+    margin: auto;
+}
+.modal-body .content label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.modal-body .rowadd {
+    margin-bottom:  20px;
+}
+.modal-body .rowadd input {
+    height: 35px;
+    width: 100%;
+}
+th {
+    text-align: center;
+}
+td {
+    text-align: center !important;
+    
 }

@@ -128,3 +128,9 @@
     background-color:#8b5c7e !important;
     color: white !important;
 }
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
