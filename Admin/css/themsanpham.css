@@ -14,7 +14,7 @@
 }
 .content_Prosub form{
     display: flex;
-    width: 80%;
+    width: 63%;
     height: 80%;
     margin: auto;
     padding-top: 30px;
@@ -96,19 +96,31 @@
     font-size: 16px;
     background: #8b5c7e;
     padding: 4px 8px;
-    width: 230px;
+    width: 310px;
     outline: none;
     border-radius: 100px;
     -webkit-border-radius: 100px;
     height: 35px;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    
 }
 .choose_file:hover {
-    border: 1px solid #fa9fa4;
+   
     background: #fa9fa4 !important;
     border-radius: 100px;
     -webkit-border-radius: 100px;
     outline: none;
     height: 35px;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+   
 }
 .top-nav .nav .row1 label{
    padding-top: 7px !important;
@@ -136,3 +148,4 @@
 .content_Prosub input {
     outline: none;
 }
+

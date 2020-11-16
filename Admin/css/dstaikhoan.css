@@ -62,3 +62,9 @@
 .table_content thead th {
     position: sticky; top: 0;
 }
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}

@@ -28,3 +28,9 @@ td a i:hover {
 .proright_table .add{
     margin-right: 5px !important;
 }
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
