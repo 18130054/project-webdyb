@@ -37,6 +37,7 @@
 /* left */
 .content_Prosub .left {
     margin-right: 70px;
+    min-width: 130px;
 
 }
 .content_Prosub .left div {

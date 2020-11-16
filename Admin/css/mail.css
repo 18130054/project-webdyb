@@ -1,0 +1,12 @@
+.modal-body .content {
+    width: 80%;
+    margin: auto;
+}
+
+.modal-body .rowadd {
+    margin-bottom:  20px;
+}
+.modal-body .rowadd input {
+    height: 35px;
+    width: 100%;
+}
