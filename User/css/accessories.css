@@ -135,3 +135,59 @@
 
 
 /* menu-end */
+.range{
+  width:100%;
+}
+.range .content{
+  width:99%;
+  height: 45px;
+}
+.input{
+  width:45%;
+  height: 30px;
+  float: left;
+}
+.input .tu{
+  width:100%;
+  height: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.input1{
+  width:45%;
+  height: 30px;
+  float: left;
+  margin-left: 10%;
+}
+.input1 .den{
+  width:100%;
+  height: 30px;
+  outline: none;
+  border: #ccc 1px solid;
+}
+.apdung{
+  width:100%;
+
+}
+
+.apdung .button{
+  width:100%;
+  border: 1px solid #ccc;
+  height: 30px;
+  color: white;
+  background-color: black;
+  outline: none;
+  -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.apdung .button:hover{
+  color: white;
+  background-color: #fb383b;
+  -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
