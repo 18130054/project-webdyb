@@ -146,3 +146,7 @@ td {
     width: 80%;
     margin: auto;
 }
+.modal-body .content label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
