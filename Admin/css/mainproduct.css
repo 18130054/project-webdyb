@@ -24,7 +24,7 @@
     font-size: 16px;
     margin-bottom: 10px;
 }
-.proleft_addmain form .proleft_name input {
+.proleft_addmain form .proleft_name > input {
     margin-bottom: 20px;
     outline: none;
     width: 100%;
@@ -133,4 +133,34 @@ th {
 }
 td {
     text-align: center;
+}
+/* modal */
+.modal-body .content .rowadd label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.modal-body .content .rowadd > input {
+    height: 35px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form-check .form-check-label {
+    font-weight: normal;
+}
+.modal-body .content .rowadd .pic_mhk {
+    margin-bottom: 10px;
+}
+.modal-body .content .rowadd #pic {
+    padding-left: 14%;
+}
+#danhmuc {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.content .rowadd select {
+    height: 35px !important;
 }
