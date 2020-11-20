@@ -51,6 +51,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="shop.html">Áo</a></li>
 						<li><a href="trousersShop.html">Quần</a></li>
 						<li><a href="accessories.html">Phụ Kiện</a></li>
+						<li><a href="giamgia.html">Giảm Giá</a></li>
 						<li><a href="contact.html">Liên Hệ</a></li>
 					</ul>
 			</div>
@@ -125,109 +126,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div id="horizontalTab">
 						<ul class="resp-tabs-list">
 							<li>Thanh toán khi nhận hàng (COD)</li>
-							<li>Thẻ tín dụng/Ghi nợ</li>
-							
-							<li>Thanh toán qua Paypal</li>
 						</ul>
 						<div class="resp-tabs-container">
 							<!--/tab_one-->
 							<div class="tab1">
 								<div class="pay_info">
 									<div class="vertical_post check_box_agile">
-										<h5>COD</h5>
+									
 										<div class="checkbox">
 											<div class="check_box_one cashon_delivery">
+												<label class="ghichu">Ghi Chú</label><br>
+												<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
 												<label class="anim">
 																<input type="checkbox" class="checkbox">
 																 <span> Bạn có chắc muốn thanh toán khi nhận hàng ?</span> 
 															</label>
+												
 											</div>
 											
 
 										</div>
-										<button class="submitcod"><span>Thanh toán</span></button>
+										<button class="submitcod"><span>Đặt Hàng</span></button>
 									</div>
 								</div>
 
 							</div>
 							<!--//tab_two-->
-							<div class="tab2">
-								<div class="pay_info">
-									<form action="#" method="post" class="creditly-card-form agileinfo_form">
-										<section class="creditly-wrapper wthree, w3_agileits_wrapper">
-											<div class="credit-card-wrapper">
-												<div class="first-row form-group">
-													<div class="controls">
-														<label class="control-label">Name on Card</label>
-														<input class="billing-address-name form-control" type="text" name="name" placeholder="Nguyen Van Z">
-													</div>
-													<div class="w3_agileits_card_number_grids">
-														<div class="w3_agileits_card_number_grid_left">
-															<div class="controls">
-																<label class="control-label">Card Number</label>
-																<input class="number credit-card-number form-control" type="text" name="number" inputmode="numeric" autocomplete="cc-number"
-																    autocompletetype="cc-number" x-autocompletetype="cc-number" placeholder="&#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149;">
-															</div>
-														</div>
-														<div class="w3_agileits_card_number_grid_right">
-															<div class="controls">
-																<label class="control-label">CVV</label>
-																<input class="security-code form-control" Â· inputmode="numeric" type="text" name="security-code" placeholder="&#149;&#149;&#149;">
-															</div>
-														</div>
-														<div class="clear"> </div>
-													</div>
-													<div class="controls">
-														<label class="control-label">Expiration Date</label>
-														<input class="expiration-month-and-year form-control" type="text" name="expiration-month-and-year" placeholder="MM / YY">
-													</div>
-												</div>
-												<button class="submit"><span>Thanh toán</span></button>
-											</div>
-										</section>
-									</form>
-
-								</div>
-							</div>
-						<!-- tab three -->
-							<div class="tab4">
-								<div class="pay_info">
-									<div class="col-md-6 tab-grid">
-										<img class="pp-img" src="images/paypal.png" alt="Image Alternative text" title="Image Title">
-									</div>
-									<div class="col-md-6">
-										<form class="cc-form form-paypal">
-											
-											<div class="clearfix">
-												<div class="form-group form-group-cc-number">
-													<label>Card Number</label>
-													<input class="form-control card-number-tab4" id="card-number-tab4" placeholder="xxxx xxxx xxxx xxxx" type="text"><span class="cc-card-icon"></span>
-												</div>
-												<div class="form-group form-group-cc-cvc">
-													<label>CVV</label>
-													<input class="form-control cvv-tab4" id="cvv-tab4" placeholder="xxxx" type="text">
-												</div>
-											</div>
-											<div class="clearfix">
-												<div class="form-group form-group-cc-name">
-													<label>Card Holder Name</label>
-													<input class="form-control card-holder-name" id="cardholder-name" type="text">
-												</div>
-												<div class="form-group form-group-cc-date">
-													<label>Valid Thru</label>
-													<input class="form-control valid-thru" id="valid-thru" placeholder="mm/yy" type="text">
-												</div>
-											</div>
-											<div class="checkbox checkbox-small">
-												<label id="checklablepaypal">
-                                        		<input class="i-check check-add-tab4" id="check-add-tab4" type="checkbox" checked="">Thêm vào thẻ của tôi</label>
-											</div>
-										</form>
-										<button class="submit-paypal" type="submit" onclick="checkPaypal()"><span>Thanh toán</span></button>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
+							
+							
 						</div>
 					</div>
 				</div>
@@ -237,7 +163,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<!-- //payment -->
 
-		<div class="clearfix"></div>
+		
 	</div>
 	<!-- //top products -->
 	<div class="mid_slider_w3lsagile">
@@ -487,50 +413,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 	</script>
 
-	<!-- credit-card -->
-	<script type="text/javascript" src="js/creditly.js"></script>
-	<link rel="stylesheet" href="css/creditly.css" type="text/css" media="all" />
 
-	<script type="text/javascript">
-		$(function () {
-			var creditly = Creditly.initialize(
-				'.creditly-wrapper .expiration-month-and-year',
-				'.creditly-wrapper .credit-card-number',
-				'.creditly-wrapper .security-code',
-				'.creditly-wrapper .card-type');
-
-			$(".creditly-card-form .submit").click(function (e) {
-				e.preventDefault();
-				var output = creditly.validate();
-				if (output) {
-					// Your validated credit card output
-					console.log(output);
-				}
-			});
-		});
-		
-		// check paypal
-		var cardNum = document.getElementById('card-number-tab4');
-		var cvv = document.getElementById('cvv-tab4');
-		var cardholdername = document.getElementById('cardholder-name');
-		var validthru = document.getElementById('valid-thru');
-		var checkaddtab4 =document.getElementById('check-add-tab4');
-		function checkPaypal() {
-			if (cardNum.value == "") 
-				cardNum.style.borderColor = "red";
-			if (cvv.value == "") 
-				cvv.style.borderColor = "red";
-			if (cardholdername.value == "") 
-				cardholdername.style.borderColor = "red";
-			if (validthru.value == "") 
-				validthru.style.borderColor = "red";
-			if(checkaddtab4.checked == false)
-			document.getElementById("checklablepaypal").style.color = "red";
-		}
-
-	</script>
-	
-	<!-- //credit-card -->
 
 
 	<!-- start-smoth-scrolling -->

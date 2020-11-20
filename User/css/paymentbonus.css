@@ -60,4 +60,11 @@
     right: 1.401%;
 }
 
-/* menu-end */
+.ghichu {
+    padding-left: 0px !important;
+     padding-bottom: 20px;
+     font-weight: bold !important;
+}
+.checkbox .check_box_one .form-control {
+    margin-bottom: 20px;
+}
