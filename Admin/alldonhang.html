@@ -305,8 +305,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <!-- sửa từ phan này -->
                     <h2 class="w3ls_head">Tất Cả Đơn Hàng</h2>
                     <div class="icons">
-                        <div class="content">
-                            <table class="table table-bordered" style="max-height: 700px;">
+                        <div class="content" style="max-height: 650px;">
+                            <table class="table table-bordered" >
                                 <thead>
                                     <tr class="active  tr-main">
                                         <th></th>
@@ -931,76 +931,107 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <!--main content end-->
     </section>
     <!-- modal -->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Chỉnh Sửa Địa Chỉ</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="content">
-                        <div class="rowadd row1">
-                            <label for="">Mã Đơn Hàng:</label>
-                            <input id="ten" type="text" value="12312312">
-                        </div>
-                        <div class="rowadd row2">
-                            <label for="">Mã Khách Hàng (ID):</label>
-                            <input id="sdt" type="text" value="1">
-                        </div>
-                        <div class="rowadd row2_1">
-                            <label for="">Mã Sản Phẩm:</label>
-                            <input id="sdt" type="text" value="1">
-                        </div>
-                        <div class="rowadd row2_2">
-                            <label for="">Kích Thước:</label>
-                            <input id="sdt" type="text" value="S">
-                        </div>
-                        <div class="rowadd row2_3">
-                            <label for="">Màu Sắc:</label>
-                            <input id="sdt" type="text" value="Trắng">
-                        </div>
-                        <div class="rowadd row2_4">
-                            <label for="">Số Lượng:</label>
-                            <input id="sdt" type="text" value="1">
-                        </div>
-                        <div class="rowadd row3">
-                            <label for="">Thanh Toán:</label>
-                            <input id="tinh" type="text" value="COD">
-                        </div>
-                        <div class="rowadd row4">
-                            <label for="">Ngày Đặt:</label>
-                            <input id="quan" type="text" value="11/12/2020">
-                        </div>
-                        <div class="rowadd row5">
-                            <label for="">Ngày Giao:</label>
-                            <input id="phuong" type="text" value="15/12/2020">
-                        </div>
-                        <div class="rowadd row6">
-                            <label for="">Trạng Thái:</label>
-                            <input id="chitiet" type="text" value="Đang Giao">
-                        </div>
-                        <div class="rowadd row7">
-                            <label for="">Tổng Tiền:</label>
-                            <input id="chitiet" type="text" value="355.000đ">
-                        </div>
-                        <div class="rowadd row7">
-                            <label for="">Địa Chỉ:</label>
-                            <input id="chitiet" type="text"
-                                value="Ký túc xá khu B Đại Học Quốc Gia Phường Đông Hòa Thị Xã Dĩ An Bình Dương">
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-                    <button type="button" onclick="myfun()" data-dismiss="modal" class="btn btn-primary">Lưu</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+		  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="exampleModalLongTitle">Chỉnh Sửa Địa Chỉ</h5>
+					 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  	<div class="content">
+						 
+										<div class="left">
+											<div class="row1">
+												<label for="">Mã Đơn Hàng</label><br>
+												<input type="text" value="12312312">
+											</div>
+											<div class="row2">
+												<label for="">Mã Khách Hàng (ID)</label><br>
+												<input type="text" value="1">
+											</div>
+											<div class="row3">
+												<label for="">Thanh Toán</label><br>
+												<input type="text" value="COD">
+											</div>
+											<div class="row4">
+												<label for="">Ngày Đặt</label><br>
+												<input type="text" value="12/11/2020">
+											</div>
+										</div>
+										<div class="right">
+											<div class="row1">
+												<label for="">Ngày Giao</label><br>
+												<input type="text" value="15/11/2020">
+											</div>
+											<div class="row2">
+												<label for="">Trạng Thái</label><br>
+												<input type="text" value="Đang Giao">
+											</div>
+											<div class="row2">
+												<label for="">Địa Chỉ</label><br>
+												<input type="text" value="Ký túc xá khu B Đại Học Quốc Gia Phường Đông Hòa Thị Xã Dĩ An Bình Dương">
+											</div>
+											<div class="row3">
+												<label for="">Tổng Tiền</label><br>
+												<input type="text" value="1.775.000">
+											</div>
+										</div>
+							
+					
+				 	</div>
+				</div>
+				<div class="center" style="max-height: 500px;">
+					<table class="table table-bordered" >
+						<thead>
+						<tr class="active">
+							<th>STT</th>
+							<th>Mã Sản Phẩm</th>
+							<th>Kích Thước</th>
+							<th>Màu Sắc</th>
+							<th>Số Lượng</th>
+							<th>Giá Tiền</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td><span>1</span></td>
+							<td><input type="text" value="2"></td>
+							<td><input type="text" value="S"></td>
+							<td><input type="text" value="Trắng"></td>
+							<td><input type="text" value="3"></td>
+							<td><input type="text" value="1.065.000"></td>
+						</tr>
+						<tr>
+							<td><span>2</span></td>
+							<td><input type="text" value="1"></td>
+							<td><input type="text" value="S"></td>
+							<td><input type="text" value="Đen"></td>
+							<td><input type="text" value="1"></td>
+							<td><input type="text" value="355.000"></td>
+						</tr>
+						<tr>
+							<td><span>3</span></td>
+							<td><input type="text" value="3"></td>
+							<td><input type="text" value="S"></td>
+							<td><input type="text" value="Trắng"></td>
+							<td><input type="text" value="1"></td>
+							<td><input type="text" value="355.000"></td>
+						</tr>
+						
+						</tbody>
+						<tr></tr>
+					</table>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+					  <button type="button"  data-dismiss="modal" class="btn btn-primary">Lưu</button>
+				</div>
+		  </div>
+		</div>
+  </div>
     <!-- end modal -->
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery.dcjqaccordion.2.7.js"></script>

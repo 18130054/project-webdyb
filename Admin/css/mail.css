@@ -12,4 +12,5 @@
 .modal-body .rowadd input {
     height: 35px;
     width: 100%;
+    outline: none;
 }

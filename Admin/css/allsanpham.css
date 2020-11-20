@@ -11,7 +11,14 @@
 .table_content thead th {
     position: sticky; top: 0;
 }
+.table_content {
+    overflow-y: auto;
+    
+}
 
+.table_content thead th {
+    position: sticky; top: 0;
+}
 .boxx-tb {
     margin-bottom: 0px !important;
 }
