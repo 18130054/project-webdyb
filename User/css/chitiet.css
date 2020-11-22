@@ -162,3 +162,13 @@ input.button.add:hover{
     color: #fb383b;
     font-weight: bold;
 }
+.rating1 {
+    margin-bottom: 10px;
+}
+ul.stars i {
+    font-size: 15px !important;
+}
+ul.stars li a {
+    color: #ffce3d !important;
+
+} 
