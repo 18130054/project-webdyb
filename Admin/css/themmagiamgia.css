@@ -33,7 +33,7 @@
     min-width: 70px;
 }
 .row2 .giam{
-    width: 250px;
+    
     height: 40px;
     outline: none;
 }
@@ -76,4 +76,12 @@
      margin-top: 30px;
      min-width: 200px;
      padding-bottom: 5%;
+ }
+ .chooseFile {
+     width: 40% !important;
+     float: right;
+ }
+ .nhomKH {
+     height: 30px;
+     outline: none;
  }
