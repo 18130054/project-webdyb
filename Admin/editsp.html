@@ -25,6 +25,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <!-- //font-awesome icons -->
 <script src="js/jquery2.0.3.min.js"></script>
+<!-- ckeditor -->
+<script src="ckeditor/ckeditor.js"></script>
 </head>
 <body>
 <section id="container">
@@ -233,6 +235,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     <div class="row4_0 p">
                                         <label for="">Kích Thước:</label>
                                     </div>
+                                    <div class="row4_2 p">
+                                        <label for="">Trạng Thái:</label>
+                                    </div>
+                                    <div class="row4_3 p">
+                                        <label for="">Tình Trạng:</label>
+                                    </div>
                                     <div class="row4_1 p">
                                         <label for="">Màu Sắc:</label>
                                     </div>
@@ -295,6 +303,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             <option >XXL</option>
                                           </select>
                                     </div>
+                                    <div class="row4_2">
+                                        <select class="combo_box">
+                                            <option >Chọn</option>
+                                            <option selected>Public</option>
+                                            <option >Private</option>
+                                          
+                                          </select>
+                                    </div>
+                                    <div class="row4_3">
+                                        <input type="text" value="Còn Hàng">
+                                        </div>
                                     <div class="row4_1">
                                         <input type="text" value="Trắng">
                                         </div>
@@ -315,7 +334,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <input type="text">
                                     </div>
                                     <div class="row10">
-                                        <textarea class="wysihtml5 form-control" rows="9" >ÁO THUN THƯƠNG HIỆU DYB
+                                        <textarea id="ten" class="wysihtml5 form-control" rows="9" >ÁO THUN THƯƠNG HIỆU DYB
                                             Hàng có sẵn, Ship hàng nhanh chóng
                                             
                                             🎯 HƯỚNG DẪN CHỌN SIZE
@@ -329,9 +348,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             Size XXL : Trên 82Kg
                                             
                                             Lưu ý: Size trên là kích thước vừa người, nếu muốn thoải mái thì tăng lên 1 size nhé!</textarea>
+                                            <script>CKEDITOR.replace('ten');</script>
                                     </div>
                                     <div class="row11">
-                                        <textarea class="wysihtml5 form-control" rows="9">Áo Thun Nam DYB
+                                        <textarea id="ten2" class="wysihtml5 form-control" rows="9">Áo Thun Nam DYB
                                             Thương hiệu: DYB
                                             
                                             Mã Sản Phẩm: 31155
@@ -339,6 +359,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             Chất Liệu: vải cotton
                                             
                                             Xuất Xứ: Việt Nam</textarea>
+                                            <script>CKEDITOR.replace('ten2');</script>
                                     </div>
                                      <div class="bottom">
                                         <button>Thoát</button>

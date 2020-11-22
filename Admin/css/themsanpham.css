@@ -26,6 +26,7 @@
 }
 .content_Prosub .right .row1 img{
     width: 110px;
+    height: 110px;
    
 } 
 .content_Prosub .right input {
@@ -47,10 +48,10 @@
     
 }
 .content_Prosub .left .p {
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 .content_Prosub .left .p1 {
-    margin-bottom: 200px !important ;
+    margin-bottom: 440px !important ;
 }
 .content_Prosub .left .p2 {
     margin-bottom: 50px;
@@ -63,6 +64,12 @@
 }
 .content_Prosub .left .row4 {
     margin-bottom: 35px;
+}
+.content_Prosub .left .row6 {
+    margin-bottom: 55px;
+}
+.content_Prosub .left .rowa4 {
+    margin-bottom: 55px !important;
 }
 .content_Prosub .bottom {
     margin-bottom: 0px !important;

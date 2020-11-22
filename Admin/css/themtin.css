@@ -26,3 +26,6 @@
 .compose-mail .button {
     width: 85% !important;
 }
+.col-sm-9 {
+    width: 100% !important;
+}
