@@ -24,7 +24,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </script>
 	<!-- bonnus -->
 	<link rel="stylesheet" href="css/donmua.css">
-
+	<link rel="stylesheet" href="css/danhgia.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<!-- //custom-theme -->
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<link rel="stylesheet" href="css/shop.css" type="text/css" media="screen" property="" />
@@ -371,10 +372,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 														<span>Áo thun Strength</span><br>
 														<span>Số lượng: </span><span>1</span>
 													</div>
+												
 													<div class="row2_3">150.000đ</div>
 												</div>
 												</a>
 												<div class="row3">
+													<button class="huydh" type="submit" data-toggle="modal" data-target="#exampleModalCenter">Đánh Giá</button>
 													<span class="tien">Tổng Tiền: </span>
 													<span class="tongtien">150.000đ</span>
 												</div>
@@ -523,6 +526,54 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //footer -->
    <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		<!-- modal -->
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 class="modal-title" id="exampleModalLongTitle">Đánh Giá</h5>
+						 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					<div class="modal-body">
+					  <div class="content">
+						<div class="container">
+							<div class="post">
+							  <div class="text">
+								  Cảm ơn đã đánh giá!
+								</div>
+								<div class="edit">
+								Sửa</div>
+						  </div>
+					  <div class="star-widget">
+							  <input type="radio" name="rate" id="rate-5">
+							  <label for="rate-5" class="fas fa-star"></label>
+							  <input type="radio" name="rate" id="rate-4">
+							  <label for="rate-4" class="fas fa-star"></label>
+							  <input type="radio" name="rate" id="rate-3">
+							  <label for="rate-3" class="fas fa-star"></label>
+							  <input type="radio" name="rate" id="rate-2">
+							  <label for="rate-2" class="fas fa-star"></label>
+							  <input type="radio" name="rate" id="rate-1">
+							  <label for="rate-1" class="fas fa-star"></label>
+							  <form action="#">
+								<header></header>
+							</div>
+								
+								<br />
+					  <div class="btn">
+					  <button class="button" type="submit">Đánh Giá</button>
+								</div>
+					  </div>
+					</div>
+					<div class="modal-footer">
+					  <button class="dong" type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+						 
+					</div>
+			  </div>
+			</div>
+	  </div>
 	<!-- js -->
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 	<!-- //js -->
@@ -541,6 +592,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			}
 		});
 	</script>
+	<!-- danh gia -->
+	<script>
+		const btn = document.querySelector(".button");
+		const post = document.querySelector(".post");
+		const widget = document.querySelector(".star-widget");
+		const editBtn = document.querySelector(".edit");
+		btn.onclick = ()=>{
+		  widget.style.display = "none";
+		  post.style.display = "block";
+		  editBtn.onclick = ()=>{
+			widget.style.display = "block";
+			post.style.display = "none";
+		  }
+		  return false;
+		}
+	  </script>
 	<!-- //cart-js -->
 	<!-- /nav -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
