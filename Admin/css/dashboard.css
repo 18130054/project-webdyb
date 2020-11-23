@@ -188,3 +188,52 @@ td {
     text-align: center !important;
     
 }
+.center table tr td .dialog-check {
+    width: 10px;
+}
+.content_but {
+    float: right;
+    
+}
+
+.content_but button {
+    width: 200px;
+    height: 40px;
+    outline: none;
+    background: #8b5c7e;
+    border: none;
+    font-size: 18px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    color: white;
+    margin: 10px 0px 10px 0px;
+}
+.but-dialog {
+    outline: none;
+    height: 30px;
+    background: #8b5c7e;
+    border: none;
+    font-size: 14px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    color: white;
+}
+.content_but button:hover, .but-dialog:hover {
+    background: #fa9fa4;
+    color: white;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.content_but .xuatfile {
+    margin-right: 20px !important;
+}

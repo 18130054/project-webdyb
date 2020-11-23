@@ -1,12 +1,7 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE html>
 <head>
-<title>Tất Cả Tin</title>
+<title>Thêm Tin</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Visitors Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -16,17 +11,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link rel="stylesheet" href="css/bootstrap.min.css" >
 <!-- //bootstrap-css -->
 <!-- Custom CSS -->
-<link rel="stylesheet" href="css/search.css">
-<link rel="stylesheet" href="css/mainproduct.css">
-<link rel="stylesheet" href="css/dstin.css">
+<link rel="stylesheet" href="css/themtin.css">
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href="css/style-responsive.css" rel="stylesheet"/>
 <!-- font CSS -->
 
 <!-- font-awesome icons -->
+
+<link rel="stylesheet" href="css/font.css" type="text/css"/>
+
 <link href="css/font-awesome.css" rel="stylesheet"> 
+
 <!-- //font-awesome icons -->
 <script src="js/jquery2.0.3.min.js"></script>
+<!-- ckeditor -->
+<script src="ckeditor/ckeditor.js"></script>
 </head>
 <body>
 <section id="container">
@@ -47,7 +46,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="nav notify-row" id="top_menu">
     <!--  notification start -->
     <ul class="nav top-menu">
-       
         <!-- notification dropdown start-->
         <li id="header_notification_bar" class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
@@ -93,24 +91,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="top-nav clearfix">
     <!--search & user info start-->
     <ul class="nav pull-right top-menu">
-        <li class="lis_search">
-            <div class="dropdown_1">
-                <div class="default_op">Chọn</div>
-                <ul>
-                    <li>Chọn</li>
-                    <li>Mã Tin</li>
-                    <li>Chủ Đề</li>
-                    <li>Vị Trí</li>
-                    <li>Ngày Sửa</li>
-                    <li>Ngày Thêm</li>
-                    <li>Tổng Tiền</li>
-                </ul>
-            </div>
-            <div class="search_f">
-                <input type="text" name="" id="" class="input_1">
-                <i class="fa fa-search"></i>
-            </div>
-        </li>
        
         <!-- user login dropdown start-->
         <li class="dropdown">
@@ -121,11 +101,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </a>
             <ul class="dropdown-menu extended logout">
                 <li><a href="editaccount.html"><i class=" fa fa-suitcase"></i>Cá Nhân</a></li>
-               
                 <li><a href="login.html"><i class="fa fa-key"></i> Đăng Xuất</a></li>
             </ul>
         </li>
-   
+        <!-- user login dropdown end -->
        
     </ul>
     <!--search & user info end-->
@@ -150,12 +129,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span>Trang Chủ</span>
                     </a>
                     <ul class="sub">
-                        <li><a class="active"  href="dstin.html">Tất Cả Tin</a></li>
+                        <li><a class="active" href="dstin.html">Tất Cả Tin</a></li>
                         <li><a  href="themtin.html">Thêm Tin</a></li>
                     </ul>
                 </li>
                 <li >
-                    <a  href="alldonhang.html">
+                    <a href="alldonhang.html">
                         <i class="fa fa-building"></i>
                         <span>Tất Cả Đơn Hàng</span>
                     </a>
@@ -178,12 +157,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span>Tài Khoản</span>
                     </a>
                     <ul class="sub">
-                        <li><a   href="dstaikhoan.html">Tất Cả Tài Khoản</a></li>
+                        <li><a  href="dstaikhoan.html">Tất Cả Tài Khoản</a></li>
                         <li><a href="canhanuser.html">Thêm Tài Khoản</a></li>
                     </ul>
                 </li>
-               
-               
+              
               
                 <li>
                     <a  href="spchinh.html">
@@ -230,141 +208,66 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--sidebar end-->
 <!--main content start-->
 <section id="main-content">
-	<section class="wrapper" >
-		<div class="wthree-font-awesome">
-			<div class="grid_3 grid_4 w3_agileits_icons_page">
-					<div class="icons">
-						<h2 class="w3ls_head">Tin Trang Chủ</h2>
-						<div class="content_Promain">
-							<div class="content_Prosub">
-								<div class="proright">
-										<div class="proright_table">
-											<h3>Danh Sách Tin</h3>
-											<div class="table_content" style="max-height: 500px;">
-												<table class="table table-bordered"  >
-                                                    <thead>
-													<tr class="active">
-														<th class="thac"></th>
-														<th class="p p1">
-															STT
-                                                       
-                                                        <th>Mã Tin</th>
-														<th class="p p2">
-															Chủ Đề
-														</th>
-														<th>Vị Trí</th>
-														<th class="p p3">
-															Ngày Sửa
-														</th>
-														<th class="p p4"> 
-															Ngày Thêm
-														</th>
-														<th class="p p5">
-															Xem/ Sửa
-														</th>
-														<th class="p">
-															Xóa
-														</th>
-                                                
-													</tr>
-                                                     </thead>
-                                                     <tbody>
-												    <tr>
-														<td>
-															<input type="checkbox">
-														</td>
-														<td>
-															1
-                                                        </td>
-                                                        <td>1</td>
-														<td>
-															Tuần Lễ Độc Thân
-                                                        </td>
-                                                        <td>1</td>
-														<td>
-															3/11/2020
-														</td>
-														<td>
-															3/11/2020
-                                                        </td>
-														<td>
-															<a class="row1" href="suatin.html"><i class="fa fa-edit"></i></a>
-														</td>
-														<td>
-															<a href=""><i class=" fa fa-trash"></i></a>
-														</td>
-													</tr>
-													<tr>
-														<td>
-															<input type="checkbox">
-														</td>
-														<td>
-															2
-                                                        </td>
-                                                        <td>
-															2
-                                                        </td>
-														<td>
-															Áo Mới Chào Tháng 11
-														</td>
-														<td>2</td>
-														<td>
-															3/11/2020
-														</td>
-														<td>
-															3/11/2020
-                                                        </td>
-														<td>
-															<a class="row1" href="suatin.html"><i class="fa fa-edit"></i></a>
-														</td>
-														<td>
-															<a href=""><i class=" fa fa-trash"></i></a>
-														</td>
-													</tr>
-													<tr>
-														<td>
-															<input type="checkbox">
-														</td>
-														<td>
-															3
-                                                        </td>
-                                                        <td>
-															3
-                                                        </td>
-														<td>
-															HipHop Never Die!
-														</td>
-														<td>3</td>
-														<td>
-															3/11/2020
-														</td>
-														<td>
-															3/11/2020
-                                                        </td>
-														<td>
-															<a class="row1" href="suatin.html"><i class="fa fa-edit"></i></a>
-															
-														</td>
-														<td>
-															<a href=""><i class=" fa fa-trash"></i></a>
-														</td>
-													</tr>
-												
-												</tbody>
-												</table>
-                                            </div>
-                                            <button  type="submit">Xóa Nhiều Mục</button>
-                                           <a href="themtin.html"> <button class="add" >Thêm Tin</button></a>
-										</div>
-								</div>
-							</div>
-						</div>
-					</div>
-			</div>
-		</div>
-		
-</section>
+	<section class="wrapper">
+		<!-- page start-->
+		<div class="mail-w3agile">
+        <div class="row">
+         
+            <div class="col-sm-9 mail-w3agile">
+                <section class="panel">
+                    <header class="panel-heading wht-bg">
+                       <h4 class="gen-case"> Soạn Tin
+                           
+                       </h4>
+                    </header>
+                    <div class="panel-body">
+                        <div class="compose-mail">
+                            <form role="form-horizontal" method="post">
 
+                                <div class="form-group">
+                                    <label for="subject" class="lb_til">Chủ đề:</label>
+                                    <input type="text" tabindex="1" id="subject" class="form-control title" value="Tuần Lễ Độc Thân">
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject" class="lb_but">Nội dung Button:</label>
+                                    <input type="text" tabindex="1" id="subject_1" class="form-control button" value="Mua Ngay">
+                                </div>
+                                <div class="compose-editor">
+                                    <textarea id="ten" class="wysihtml5 form-control" rows="9">
+                                        Sự kiện giảm giá hấp dẫn nhât trong năm!
+                                    </textarea>
+                                    <script>CKEDITOR.replace('ten');</script>
+                                    <label for="subject" class="lb_pic" style="display: block; margin-top: 10px;">Hình ảnh:  <img src="images/b1.jpg"  alt=""><img src="images/b2.jpg" alt=""></label>
+                                   
+                                    <input type="file" class="default">
+                                </div>
+                               
+                                <div class="choose_location">
+                                    <select class="combo_box">
+                                        <option selected="">Chọn Vị Trí</option>
+                                        <option selected>Số 1</option>
+                                        <option >Số 2</option>
+                                        <option >Số 3</option>
+                                      </select>
+                                      <button class="btn btn-sm" type="submit">Thêm Vị Trí Khác</button>
+                                </div>
+                                <div class="compose-btn">
+                                    <button class="btn btn-primary btn-sm"><i class="fa fa-check"></i> Thêm Tin</button>
+                                    <button class="btn btn-sm"><i class="fa fa-times"></i> Xóa</button>
+                                    <button class="btn btn-sm"> Tin Nháp</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- page end-->
+		 </div>
+</section>
+ 
 </section>
 
 <!--main content end-->
@@ -374,8 +277,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/scripts.js"></script>
 <script src="js/jquery.slimscroll.js"></script>
 <script src="js/jquery.nicescroll.js"></script>
-<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/flot-chart/excanvas.min.js"></script><![endif]-->
+
 <script src="js/jquery.scrollTo.js"></script>
-<script src="js/search.js"></script>
 </body>
 </html>
