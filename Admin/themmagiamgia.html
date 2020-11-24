@@ -265,14 +265,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         </div>
                                         <div class="row4_2">
                                             <label for="">Sản Phẩm Áp Dụng:</label>
-                                            <select name="" class="nhomKH">
+                                            <select id="selectgiamgia" name="" class="nhomKH" onclick="myfun()">
                                                 <option value="" selected>Chọn Sản Phẩm</option>
                                                 <option value="">Tất Cả Sản Phẩm</option>
-                                                <option value="">Sản Phẩm Chính</option>
+                                                <option id="opsp9" value="" >Sản Phẩm Chính</option>
                                                 <option value="">Sản Phẩm Phụ</option>
                                                 <option value="">Sản Phẩm</option>
                                             </select>
                                             <input type="file" class="chooseFile">
+                                        </div>
+                                        <div class="row4_3" id="sp9">
+                                           
                                         </div>
                                         <div class="row5">
                                             <button class="save" type="submit"> Thêm</button>
@@ -292,6 +295,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
         <!--main content end-->
     </section>
+
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery.dcjqaccordion.2.7.js"></script>
     <script src="js/scripts.js"></script>

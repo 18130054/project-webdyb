@@ -86,17 +86,15 @@
 }
 
 
-.tr-content .td-ctent{
-    padding-left: 25px;
-}
-.tr-content .td-ctent i{
+
+.td-ctent i{
     color: black;
     padding: 5px;
     cursor: pointer;
 }
 
 
-.tr-content .td-ctent i:hover{
+.td-ctent i:hover{
     transform: rotate(15deg);
 }
 .tr-content .td-ctent_2 i {
@@ -236,4 +234,8 @@ td {
 
 .content_but .xuatfile {
     margin-right: 20px !important;
+}
+.modal-dialog {
+    width: 850px;
+
 }
