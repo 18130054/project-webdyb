@@ -841,6 +841,13 @@ span.panel-title{
 }
 .alert-info .alert-icon {
     background-color: #99cce3;
+   
+}
+.alert .alert-icon {
+    cursor: pointer;
+}
+.alert .alert-icon:hover {
+    background-color: #DEB887;
 }
 .alert-danger .alert-icon {
     background-color: #fcb1ae;
