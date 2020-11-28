@@ -265,16 +265,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         </div>
                                         <div class="row4_2">
                                             <label for="">Sản Phẩm Áp Dụng:</label>
-                                            <select id="selectgiamgia" name="" class="nhomKH" onclick="myfun()">
+                                            <select id="selectgiamgia" name="" class="nhomKH" onclick="eventSel(this)">
                                                 <option value="" selected>Chọn Sản Phẩm</option>
                                                 <option value="">Tất Cả Sản Phẩm</option>
-                                                <option id="opsp9" value="" >Sản Phẩm Chính</option>
+                                                <option value="Sản Phẩm Chính" >Sản Phẩm Chính</option>
                                                 <option value="">Sản Phẩm Phụ</option>
                                                 <option value="">Sản Phẩm</option>
                                             </select>
                                             <input type="file" class="chooseFile">
                                         </div>
-                                        <div class="row4_3" id="sp9">
+                                        <div class="row4_3" id="dssp">
                                            
                                         </div>
                                         <div class="row5">
@@ -295,7 +295,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
         <!--main content end-->
     </section>
+    <!-- hiển thị sản phẩm chính -->
+    <script>
+            function eventSel(obj) {
+                var message = document.getElementById("dssp");
+                var value = obj.value;
+                var arrPro = ["Áo","Quần","Phụ Kiện"];
+               
+ 
+                    if (value === 'Sản Phẩm Chính') {
+                        if (!($('#dssp').hasClass("check-content"))) {
+                            message.classList.add("check-content");
+                            var lblist = document.createElement("label");
+                            lblist.classList.add("lb-list");
+                            lblist.innerHTML = "Chọn Sản Phẩm Chính";
+                            message.appendChild(lblist);
+                            for (let index = 0; index < 3; index++) {
+                            var lbpro = document.createElement("label");
+                            lbpro.classList.add("lb-check");
 
+                            if (index == 0) 
+                                lbpro.classList.add("first");
+                    
+                        lbpro.innerHTML = arrPro[index];
+                        var inp = document.createElement("input");
+                        inp.classList.add("inp-check");
+                        inp.setAttribute("type","checkbox");
+                        message.appendChild(lbpro);
+                        message.appendChild(inp);
+                            }
+                        }        
+                    }
+                    else {
+                        message.className =  message.className.replace(/\bcheck-content\b/g,"");
+                        $(".lb-list").remove();
+                         $(".lb-check").remove();
+                         $(".inp-check").remove();
+                    }
+            }
+        </script>
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery.dcjqaccordion.2.7.js"></script>
     <script src="js/scripts.js"></script>
