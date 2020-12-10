@@ -29,6 +29,16 @@
     height: 110px;
    
 } 
+.content_Prosub .right .row12 select{
+    width: 100px;
+  
+}
+.content_Prosub .right .selectX1 {
+    width: 190px;
+}
+.content_Prosub .right .selectX2 {
+    width: 100px;
+}
 .content_Prosub .right input {
     width: 500px;
     height: 40px;
@@ -60,7 +70,10 @@
     margin-bottom: 40px;
 }
 .content_Prosub .left .row1 {
-    margin-bottom: 115px;
+    margin-bottom: 50px;
+}
+.content_Prosub .left .rowpic {
+    margin-bottom: 117px;
 }
 .content_Prosub .left .row4 {
     margin-bottom: 35px;
