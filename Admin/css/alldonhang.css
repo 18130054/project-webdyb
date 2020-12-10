@@ -168,12 +168,13 @@ td {
 .modal-body .content .left label{
     font-weight: bold;
 }
-.modal-body .content .left input {
+.modal-body .content .left input, select {
     margin-bottom: 10px;
     outline: none;
     width: 100%;
+}.modal-body .content .left select {
+    height: 28px;
 }
-
 .center table tr td{
     color: #333 !important;
 }
@@ -249,4 +250,7 @@ td {
 
 .content_but .xuatfile {
     margin-right: 20px !important;
+}
+.content .right .row2 {
+    margin-bottom: 5px;
 }
