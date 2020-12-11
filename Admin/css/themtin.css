@@ -32,3 +32,11 @@
 .col-sm-9 {
     width: 100% !important;
 }
+.last-group {
+    margin-bottom: 5px !important;
+}
+.combo_box-last-group {
+    width: 100px;
+    height: 30px;
+    outline: none;
+}
