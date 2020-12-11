@@ -262,26 +262,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             </select>
                                             <input type="file" class="chooseFile">
                                         </div>
-                                        <div class="row4_2 rp">
-                                            <label for="">Sản Phẩm Áp Dụng:</label>
-                                            <select name="" class="nhomKH" onchange="eventSel(this)">
-                                                <option value="" >Chọn Sản Phẩm</option>
-                                                <option value="" >Tất Cả Sản Phẩm</option>
-                                                <option value="Sản Phẩm Chính" selected>Sản Phẩm Chính</option>
-                                                <option value="">Sản Phẩm Phụ</option>
-                                                <option value="">Sản Phẩm</option>
-                                            </select>
-                                            <input type="file" class="chooseFile">
-                                        </div>
-                                        <div class="row4_3 rp" id="dssp">
-                                            <label for="" class="">Chọn Sản Phẩm Chính</label>
-                                            <label for="" class="lb-check">Áo</label>
-                                            <input type="checkbox" class="inp-check" checked>
-                                            <label for="" class="lb-check">Quần</label>
-                                            <input type="checkbox" class="inp-check" checked>
-                                            <label for="" class="lb-check">Phụ Kiện</label>
-                                            <input type="checkbox" class="inp-check" checked>
-                                        </div>
+                                      
                                         <div class="row5 ">
                                             <button class="save" type="submit"> Thêm</button>
                                             <button class="exit" type="submit"> Thoát</button>
@@ -300,39 +281,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
         <!--main content end-->
     </section>
-    <!-- them san pham chinh -->
-    <!-- <script>
-        function eventSel(obj) {
-            var message = document.getElementById("dssp");
-            var value = obj.value;
-         
-            var arrPro = ["Áo","Quần","Phụ Kiện"];
-                if (value === 'Sản Phẩm Chính') {
-                var lblist = document.createElement("label");
-                lblist.innerHTML = "Chọn Sản Phẩm Chính";
-                message.appendChild(lblist);
-                for (let index = 0; index < 3; index++) {
-                   var lbpro = document.createElement("label");
-                   lbpro.classList.add("lb-check");
-                   if (index == 0) {
-                       lbpro.classList.add("first");
-                   }
-                   lbpro.innerHTML = arrPro[index];
-                    var inp = document.createElement("input");
-                    inp.classList.add("inp-check");
-                    inp.setAttribute("type","checkbox");
-                    message.appendChild(lbpro);
-                    message.appendChild(inp);
-                }
-            }
-        }
-    </script> -->
+  
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery.dcjqaccordion.2.7.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/jquery.slimscroll.js"></script>
     <script src="js/jquery.nicescroll.js"></script>
-    <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/flot-chart/excanvas.min.js"></script><![endif]-->
+ 
     <script src="js/jquery.scrollTo.js"></script>
     <script src="js/search.js"></script>
 </body>
